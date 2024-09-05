@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_student"
+            android:icon="@drawable/stu3"
+            android:title="学生管理" />
+<!--        <item-->
+<!--            android:id="@+id/nav_weixiu"-->
+<!--            android:icon="@drawable/weixiu"-->
+<!--            android:title="维修登记" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_weisheng"-->
+<!--            android:icon="@drawable/weisheng"-->
+<!--            android:title="卫生管理" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_fangke"-->
+<!--            android:icon="@drawable/fangke"-->
+<!--            android:title="访客管理" />-->
+    </group>
+
+    <item android:title="系统管理">
+        <menu>
+            <item
+                android:id="@+id/nav_admin"
+                android:icon="@drawable/admin"
+                android:title="管理员管理" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="退出登录" />
+        </menu>
+    </item>
+
+</menu>
